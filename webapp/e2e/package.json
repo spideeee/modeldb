@@ -19,7 +19,7 @@
     "faker": "^4.1.0",
     "mocha": "^8.2.1",
     "mochawesome": "^4.1.0",
-    "ramda": "^0.26.1",
+    "ramda": "^0.27.2",
     "selenium-webdriver": "^4.0.0-alpha.4"
   },
   "devDependencies": {

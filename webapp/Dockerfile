@@ -1,6 +1,6 @@
 # build environment
 
-FROM node:12.16.2-alpine as builder
+FROM node:12.22.8-alpine as builder
 # Create working directory
 RUN mkdir -p /usr/src/app/client
 
@@ -17,7 +17,7 @@ ENV REACT_APP_OSS 1
 ENV REACT_APP_PUBLIC_URL /
 RUN yarn build
 
-FROM node:12.16.2-alpine
+FROM node:12.22.8-alpine
 
 RUN mkdir -p /usr/src/app/client
 WORKDIR /usr/src/app

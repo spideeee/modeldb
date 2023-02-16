@@ -1,3 +1,4 @@
 cloudpickle
 flask
 prometheus_client
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability

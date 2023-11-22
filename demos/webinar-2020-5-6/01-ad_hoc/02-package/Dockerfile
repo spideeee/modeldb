@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.10.13
 
 COPY requirements_local.txt requirements.txt
 RUN pip install -r requirements.txt

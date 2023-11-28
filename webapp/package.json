@@ -17,12 +17,12 @@
     "express": "^4.16.4",
     "express-http-proxy": "^1.5.1",
     "express-session": "^1.15.6",
-    "http-proxy-middleware": "^0.19.1",
+    "http-proxy-middleware": "^0.20.0",
     "jose-jwe-jws": "^0.1.7",
     "jwt-decode": "^2.2.0",
-    "nodemon": "^1.18.10",
+    "nodemon": "^2.0.0",
     "passport": "^0.4.0",
-    "passport-auth0": "^1.1.0",
+    "passport-auth0": "^1.4.1",
     "set-value": "2.0.1"
   },
   "devDependencies": {

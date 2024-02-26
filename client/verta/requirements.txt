@@ -4,7 +4,7 @@ pylint
 # packaging
 setuptools>=40.8
 twine>=1.13
-wheel>=0.32
+wheel>=0.38.0
 
 # unit testing
 hypothesis
